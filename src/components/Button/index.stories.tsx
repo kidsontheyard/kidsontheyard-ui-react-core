@@ -1,3 +1,4 @@
+import { withActions } from "@storybook/addon-actions/decorator";
 import type { Meta, StoryObj } from "@storybook/react";
 import { Button } from ".";
 
@@ -6,8 +7,23 @@ const meta: Meta<typeof Button> = {
   component: Button,
   parameters: {
     layout: "centered",
+    parameters: {
+      actions: {
+        argTypesRegex: "^on.*",
+        handles: ["mouseover", "click .btn"],
+      },
+      decorators: [withActions],
+    },
   },
   tags: ["autodocs"],
+  argTypes: {
+    variant: {
+      control: {
+        type: "select",
+        options: ["solid", "outline", "ghost"],
+      },
+    },
+  },
 };
 
 export default meta;
@@ -34,3 +50,11 @@ export const Ghost: Story = {
     children: "Button",
   },
 };
+
+export const Accessible = () => <button>Accessible button</button>;
+
+export const Inaccessible = () => (
+  <button style={{ backgroundColor: "red", color: "darkRed" }}>
+    Inaccessible button
+  </button>
+);

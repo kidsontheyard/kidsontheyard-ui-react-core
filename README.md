@@ -1,10 +1,9 @@
-# Simple UI
+# Kidsontheyard UI React Core
 
 A basic typesafe UI Library built by using React, Typescript, TailwindCSS and Storybook.
 
 ## Getting Started
 
-We leverage Storybook as a showcase of the various components implemented by this library.
 To launch Storybook run:
 
 ```bash
@@ -23,8 +22,10 @@ npm run storybook
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Colour Accessibility for Tailwind CSS
+
+https://colour-a11y.vercel.app/
