@@ -4,7 +4,7 @@
   "homepage": "https://github.com/kidsontheyard/kidsontheyard-ui-react-core",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kidsontheyard/kidsontheyard-ui-react-core"
+    "url": "git+https://github.com/kidsontheyard/kidsontheyard-ui-react-core.git"
   },
   "keywords": [
     "react",
@@ -27,10 +27,7 @@
   ],
   "version": "0.0.1",
   "license": "MIT",
-  "author": {
-    "name": "Kids on the Yard",
-    "url": "https://kidsontheyard.com"
-  },
+  "author": "Kids on the Yard (https://kidsontheyard.com)",
   "type": "module",
   "files": [
     "dist"
@@ -92,5 +89,8 @@
   },
   "resolutions": {
     "jackspeak": "^2.1.1"
+  },
+  "bugs": {
+    "url": "https://github.com/kidsontheyard/kidsontheyard-ui-react-core/issues"
   }
 }
