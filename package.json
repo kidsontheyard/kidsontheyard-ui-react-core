@@ -1,7 +1,36 @@
 {
   "name": "@kidsontheyard/kidsontheyard-ui-react-core",
-  "private": true,
+  "description": "Kids on the Yard design UI components for React",
+  "homepage": "https://github.com/kidsontheyard/kidsontheyard-ui-react-core",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kidsontheyard/kidsontheyard-ui-react-core"
+  },
+  "keywords": [
+    "react",
+    "react-component",
+    "react-components",
+    "react-library",
+    "react-ui",
+    "react-ui-components",
+    "react-ui-library",
+    "ui",
+    "ui-components",
+    "ui-library",
+    "ui-react",
+    "ui-react-components",
+    "ui-react-library",
+    "kidsontheyard",
+    "kidsontheyard-ui",
+    "kidsontheyard-ui-react",
+    "kidsontheyard-ui-react-components"
+  ],
   "version": "0.0.1",
+  "license": "MIT",
+  "author": {
+    "name": "Kids on the Yard",
+    "url": "https://kidsontheyard.com"
+  },
   "type": "module",
   "files": [
     "dist"
