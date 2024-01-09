@@ -40,3 +40,9 @@ export const Date: Story = {
     placeholder: "Date",
   },
 };
+export const DateTime: Story = {
+  args: {
+    type: "datetime-local",
+    placeholder: "Date",
+  },
+};
